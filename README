@@ -1,0 +1,26 @@
+Reels on Rails
+	A basc video server with position-synced note taking capability
+
+A bit about me, Brendan Whereb
+	I've been a developer for many years.  It started when i was 9-10; dad had bought a C64 when I was 8.  I was coding befor my 0th birthday.  simple BASIC stuff to begin with.  I move to more advanced BASIC (peeks, pokes, data, subs, ...), and some machine code by 12.  Compute's Gazzette (sp?) taught me a lot.  About 10 years ago i put together an adhoc video server using a samba share and a html file.  not much, but it allowed me to save some of my agin VHS tapes.  [grin]  A hard drive failure took that machine to the great bit bucket in the sky, along with all those movies. :(
+	I've played with mythTV and freevo, but none of them do what i want.  mid 2008 i started learning Ruby and Rails.  I loved Ruby immediatly.  I've got my first Rails app under my belt, but i still don't feel like i know it.  so, out come the video server idea again.  This time I'll mirror the data drives.  :D  I also wanted a way to attach my notes to the screencasts and shoutcasts i learn from.  I have several peepcode screencasts that i've taken notes durring.  no, they will not be published in this project.  this is oss not theft.  Do not ask me to send them either.  I will have a demo clips of something uninteresting soon.  until use you own.
+
+here is the project plan:
+	phase 1 - auth, simple site, video playback (via flash for now.  html5 is later)
+	phase 2 - viewer notes
+	phase 3 - presenter notes, closed captions, etc...
+	phase 4 - sharing notes with others users in the system
+	phase ? - formatted notes
+	phase ? - html5 video streams
+	phase ? - flash 10.1 gestures and cool stuff like that.
+	phase ? - android client (android is first cause that's what i've played with)
+	phase ? - iphone client (iphone is later, cause i don't have one, and att can't beat my rate plan with sprint)
+
+user requirments:
+	firefox and flash 10
+	later android 2.1 (may change)
+
+server requirements
+	ruby 1.8 (for now)
+	rails 2.3.5 (for now)
+	rubyAMF ???
